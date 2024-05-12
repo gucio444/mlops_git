@@ -15,7 +15,6 @@ jobs:
         creds: ${{secrets.AZURE_CREDENTIALS}}
     - name: run job
       run: bash job.yml
-      working-directory: src
 
 
 
