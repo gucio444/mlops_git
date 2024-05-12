@@ -10,6 +10,6 @@ inputs:
     path: experimentation/data
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: cib951eb91d2034ea9b7
+compute: cpu-cluster
 experiment_name: diabetes_version1000
 description: there we go again, please work
